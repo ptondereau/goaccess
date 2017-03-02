@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Pierre TONDEREAU <http://twitter.com/ptondereau1>
 
-ENV GOACCESS_VERSION 1.1.1
+ENV GOACCESS_VERSION v1.1.1
 
 RUN apt-get update && \
   apt-get install -y wget git autoconf build-essential libgeoip-dev libncursesw5-dev pkg-config libglib2.0 && \
